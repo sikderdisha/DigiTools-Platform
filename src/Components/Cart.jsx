@@ -2,10 +2,10 @@ import React from 'react';
 
 const Cart = ({ cartItems, removeFromCart, clearCart }) => {
   
-  // ক্যালকুলেশন: মোট দাম
+  // calculation part
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
-  // কার্ট খালি থাকলে এই সেকশনটি দেখাবে
+  // empty cart
   if (cartItems.length === 0) {
     return (
       <div className="w-full flex flex-col items-center justify-center p-4">
@@ -26,7 +26,7 @@ const Cart = ({ cartItems, removeFromCart, clearCart }) => {
     );
   }
 
-  // কার্টে আইটেম থাকলে এই সেকশনটি দেখাবে
+  // if any item in the cart
   return (
     <div className="w-full md:w-[80%] mx-auto p-6 md:p-10 bg-white rounded-[32px] shadow-sm border border-gray-100">
       <h2 className="text-2xl font-bold text-[#0F172A] mb-8 px-2">Selected Products</h2>
@@ -36,7 +36,7 @@ const Cart = ({ cartItems, removeFromCart, clearCart }) => {
           <div key={item.id} className="flex items-center justify-between p-5 bg-gray-50/50 rounded-2xl border border-gray-100 hover:bg-gray-50 transition-all">
             <div className="flex items-center gap-5">
               <div className="w-16 h-16 bg-white rounded-xl shadow-xs flex items-center justify-center p-3 border border-gray-50">
-                {/* আইটেমের আইকন পাথ আপনার JSON অনুযায়ী আসবে */}
+               
                 <img src={item.image} alt={item.name} className="w-full h-full object-contain" />
               </div>
               <div>
@@ -53,7 +53,7 @@ const Cart = ({ cartItems, removeFromCart, clearCart }) => {
           </div>
         ))}
       </div>
-      
+       
       {/* Checkout Section */}
       <div className="mt-10 pt-8 border-t border-gray-100">
         <div className="flex justify-between items-center mb-8 px-2">

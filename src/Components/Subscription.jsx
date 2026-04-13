@@ -16,7 +16,7 @@ const Subscription = () => {
         {/* card container */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 items-stretch'>
           
-          {/* card 1: Starter */}
+          {/* card 1 */}
           <div className='p-8 bg-[#F8F9FB] border border-gray-100 rounded-[32px] shadow-sm transition-all duration-300 hover:bg-white hover:shadow-xl hover:-translate-y-2 cursor-pointer flex flex-col justify-between'>
             <div>
               <h2 className='text-2xl font-bold text-[#1A202C]'>Starter</h2>
@@ -53,7 +53,7 @@ const Subscription = () => {
             </button>
           </div>
 
-          {/* card 2: Pro (Most Popular) */}
+          {/* card 2*/}
           <div className='relative p-8 bg-gradient-to-br from-[#4F39F6] to-[#9514FA] border border-white/20 rounded-[32px] shadow-xl w-full md:scale-105 z-10 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 flex flex-col justify-between'>
             <div className='absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C6] px-4 py-1 rounded-full shadow-md'>
               <p className='text-[#BB4D00] text-[12px] font-bold uppercase tracking-wider'>Most Popular</p>
@@ -94,7 +94,7 @@ const Subscription = () => {
             </button>
           </div>
 
-          {/* card 3: Enterprise */}
+          {/* card 3 */}
           <div className='p-8 bg-[#F8F9FB] border border-gray-100 rounded-[32px] shadow-sm transition-all duration-300 hover:bg-white hover:shadow-xl hover:-translate-y-2 cursor-pointer flex flex-col justify-between'>
             <div>
               <h2 className='text-2xl font-bold text-[#1A202C]'>Enterprise</h2>

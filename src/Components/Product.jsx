@@ -4,7 +4,7 @@ const Products = ({ addToCart, cartItems }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // public ফোল্ডারে থাকা Data.json থেকে ডাটা ফেচ করা
+    //fetch data
     fetch('/Data.json')
       .then((response) => response.json())
       .then((data) => setProducts(data.products))
@@ -15,7 +15,7 @@ const Products = ({ addToCart, cartItems }) => {
     <div className="bg-[#FFFFFF] min-h-screen p-6 md:p-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product) => {
-          // চেক করা হচ্ছে আইটেমটি অলরেডি কার্টে আছে কি না
+         //check if the item available or not
           const isInCart = cartItems.find(item => item.id === product.id);
 
           return (
@@ -24,7 +24,7 @@ const Products = ({ addToCart, cartItems }) => {
               className="relative bg-white rounded-[32px] border border-gray-100 p-8 shadow-sm transition-all hover:shadow-xl flex flex-col justify-between group"
             >
               <div>
-                {/* Tag Section (Best Seller, New, etc.) */}
+                {/* Tag Section */}
                 <div className="absolute top-6 right-6">
                   <span className={`px-4 py-1 rounded-full text-[10px] uppercase font-bold tracking-widest ${
                     product.tagType === 'best-seller' ? 'bg-[#FEF3C6] text-[#BB4D00]' : 

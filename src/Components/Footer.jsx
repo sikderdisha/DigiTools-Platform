@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-[#101727] font-sans'>
-      {/* Upper Footer Section */}
+      {/* Upper Section */}
       <div className='grid grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between gap-10 max-w-[90%] md:max-w-[85%] lg:max-w-[80%] mx-auto pt-16 md:pt-24 pb-12 md:pb-16'>
         
         {/* Logo and Description */}
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Links: Product */}
+        {/*Product */}
         <div className='space-y-4 text-white/70 flex flex-col'>
           <h6 className="text-[18px] font-bold text-white">Product</h6>
           <a href="#" className="hover:text-[#9514FA] transition-colors cursor-pointer">Features</a>
@@ -25,7 +25,7 @@ const Footer = () => {
           <a href="#" className="hover:text-[#9514FA] transition-colors cursor-pointer">Integrations</a>
         </div>
 
-        {/* Links: Company */}
+        {/* Company*/}
         <div className='space-y-4 text-white/70 flex flex-col'>
           <h6 className="text-[18px] font-bold text-white">Company</h6>
           <a href="#" className="hover:text-[#9514FA] transition-colors cursor-pointer">About Us</a>
@@ -34,7 +34,7 @@ const Footer = () => {
           <a href="#" className="hover:text-[#9514FA] transition-colors cursor-pointer">Press</a>
         </div>
 
-        {/* Links: Resources */}
+        {/* Links */}
         <div className='space-y-4 text-white/70 flex flex-col'>
           <h6 className="text-[18px] font-bold text-white">Resources</h6>
           <a href="#" className="hover:text-[#9514FA] transition-colors cursor-pointer">Documentation</a>
@@ -61,7 +61,7 @@ const Footer = () => {
                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
               </svg>
             </a>
-            {/* X (Twitter) */}
+            {/*Twitter */}
             <a className="bg-white/10 p-3 rounded-full hover:bg-white hover:scale-110 transition-all group">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-white group-hover:text-black">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
@@ -74,7 +74,7 @@ const Footer = () => {
       {/* Divider */}
       <div className='bg-white/10 h-px max-w-[90%] md:max-w-[80%] mx-auto'></div>
 
-      {/* Bottom Footer Section */}
+      {/* Bottom*/}
       <div className='flex flex-col md:flex-row justify-between items-center gap-6 max-w-[90%] md:max-w-[80%] mx-auto mt-8 pb-10 text-center md:text-left'>
         <p className='text-sm text-white/50'>© 2026 DigiTools. All rights reserved.</p>
         <div className='flex flex-wrap justify-center gap-6 md:gap-10'>

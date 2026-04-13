@@ -39,9 +39,9 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Banner Image Section */}
+        {/*Image*/}
         <div className='w-full md:w-1/2'>
-          {/* banner.png আপনার public/Images ফোল্ডারে আছে */}
+         
           <img className='w-full max-w-md md:max-w-full mx-auto drop-shadow-xl' src="/Images/banner.png" alt="AI banner" />
         </div>
 

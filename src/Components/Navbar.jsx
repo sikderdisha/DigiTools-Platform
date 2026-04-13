@@ -57,9 +57,9 @@ const Navbar = () => {
 
           {/* Mobile Menu Icon */}
           <div className='lg:hidden flex flex-col gap-1 cursor-pointer p-1'>
-            <span className='w-6 h-[3px] bg-[#9514FA] rounded-full'></span>
-            <span className='w-6 h-[3px] bg-[#9514FA] rounded-full'></span>
-            <span className='w-6 h-[3px] bg-[#9514FA] rounded-full'></span>
+            <span className='w-6 h-0.75 bg-[#9514FA] rounded-full'></span>
+            <span className='w-6 h-0.75 bg-[#9514FA] rounded-full'></span>
+            <span className='w-6 h-0.75 bg-[#9514FA] rounded-full'></span>
           </div>
           
         </div>

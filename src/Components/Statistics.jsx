@@ -11,7 +11,7 @@ const Statistics = () => {
             <p className='text-[18px] md:text-[22px] font-medium text-white/80'>Active Users</p>
         </div>
 
-        {/* Separator Line (Horizontal on Mobile, Vertical on Desktop) */}
+       
         <div className='h-px w-32 md:h-24 md:w-px bg-white/20'></div>
 
         {/* Premium Tools */}
