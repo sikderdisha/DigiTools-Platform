@@ -1,16 +1,59 @@
-# React + Vite
+# 🌐 DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Experience the Platform in Real-Time:** 👉 [Live Demo: https://digitools-platform-disha.netlify.app/](https://digitools-platform-disha.netlify.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 About the Project
+**DigiTools Platform** is a modern, high-performance marketplace built with **React.js**. It is specifically designed to streamline the discovery and purchase of premium digital tools, AI models, and software subscriptions. 
 
-## React Compiler
+With a focus on **utility-first design** and **seamless user experience**, this platform provides a unified dashboard for digital entrepreneurs to manage their essential tools efficiently.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Smart Selection Control
+* **Duplicate Prevention:** The "Add to Cart" button automatically disables once a product is added.
+* **User-Friendly Logic:** Prevents accidental double-purchases and ensures a clean shopping flow.
+
+### 🔔 Interactive Notifications
+* **Real-time Feedback:** Integrated with **React-Toastify** for instant visual cues.
+* **Custom Alerts:** Distinctive notifications for adding products, removing items, and checkout actions.
+
+### 🔢 Dynamic Cart Management
+* **Live Counter:** The navbar reflects the current cart count in real-time.
+* **Seamless Sync:** Data flows instantly between the Product grid and the Cart tab.
+
+### 📱 Fully Responsive Design
+* Built with **Tailwind CSS** and **DaisyUI** to ensure the platform looks stunning on desktops, tablets, and smartphones.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **React.js** | Core Library for UI components |
+| **Tailwind CSS** | Styling and Responsive Layouts |
+| **DaisyUI** | High-quality UI Components |
+| **JavaScript (ES6+)** | Logic and State Management |
+| **React-Toastify** | Interactive Toast Notifications |
+| **JSON** | Local Product Data Management |
+
+---
+
+## 📸 Preview
+![DigiTools Preview](./public/images/your-screenshot.png)
+
+## 🚀 How to Run Locally
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Prerequisites
+* **Node.js** (v14 or higher)
+* **npm** (comes with Node.js)
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/sikderdisha/DigiTools-Platform.git
