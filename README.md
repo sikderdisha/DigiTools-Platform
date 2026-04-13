@@ -26,7 +26,7 @@ With a focus on **utility-first design** and **seamless user experience**, this 
 * **Seamless Sync:** Data flows instantly between the Product grid and the Cart tab.
 
 ### 📱 Fully Responsive Design
-* Built with **Tailwind CSS** and **DaisyUI** to ensure the platform looks stunning on desktops, tablets, and smartphones.
+* Built with **Tailwind CSS** and **DaisyUI** to ensure the platform looks stunning on all devices.
 
 ---
 
@@ -44,8 +44,11 @@ With a focus on **utility-first design** and **seamless user experience**, this 
 ---
 
 ## 📸 Preview
-<img width="1920" height="7009" alt="preview" src="https://github.com/user-attachments/assets/d912fc37-c07e-40e9-accd-533ef8b895ad" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d912fc37-c07e-40e9-accd-533ef8b895ad" width="100%" alt="Platform Preview">
+</p>
 
+---
 
 ## 🚀 How to Run Locally
 
@@ -57,15 +60,5 @@ Follow these steps to set up the project on your local machine:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/sikderdisha/DigiTools-Platform.git
-
-* **2. Install Dependencies**
-
-
-npm install
-
-* **2. Start the development server**
-
-npm run dev
-
-Now you can explore and modify the DigiTools Platform locally
+git clone [https://github.com/sikderdisha/DigiTools-Platform.git](https://github.com/sikderdisha/DigiTools-Platform.git)
+cd DigiTools-Platform
