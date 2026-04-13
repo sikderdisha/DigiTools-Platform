@@ -44,7 +44,7 @@ With a focus on **utility-first design** and **seamless user experience**, this 
 ---
 
 ## 📸 Preview
-![DigiTools Preview](./public/images/your-screenshot.png)
+![DigiTools Preview](/public/images/preview.png)
 
 ## 🚀 How to Run Locally
 
