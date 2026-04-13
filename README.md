@@ -58,3 +58,13 @@ Follow these steps to set up the project on your local machine:
 ### 2. Clone the Repository
 ```bash
 git clone https://github.com/sikderdisha/DigiTools-Platform.git
+
+2. Install Dependencies
+
+npm install
+
+3.Start the Development Server
+
+npm run dev
+
+Now you can explore and modify the DigiTools Platform locally
