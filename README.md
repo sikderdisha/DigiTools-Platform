@@ -59,11 +59,12 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/sikderdisha/DigiTools-Platform.git
 
-2. Install Dependencies
+* **2. Install Dependencies**
+
 
 npm install
 
-3.Start the Development Server
+* **2. Start the development server**
 
 npm run dev
 
