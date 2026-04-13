@@ -72,4 +72,4 @@ const Cart = ({ cartItems, removeFromCart, clearCart }) => {
   );
 };
 
-export default Cart;
+export default Cart
