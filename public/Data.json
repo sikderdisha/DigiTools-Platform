@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "NeuroWrite AI",
+      "description": "Next-gen neural network for crafting high-conversion marketing copy and technical blogs.",
+      "price": 32,
+      "period": "monthly",
+      "tag": "Top Rated",
+      "tagType": "best-seller",
+      "icon": "/Images/products/writing.png",
+      "features": ["Context-aware drafting", "Multi-language support", "Plagiarism guard"]
+    },
+    {
+      "id": 102,
+      "name": "PixelFlow UI Kit",
+      "description": "Exquisite library of 500+ handcrafted components for Figma and Framer designers.",
+      "price": 59,
+      "period": "one-time",
+      "tag": "Trending",
+      "tagType": "popular",
+      "icon": "/Images/products/design-tool.png",
+      "features": ["Auto-layout 5.0", "Dark/Light mode native", "Commercial license"]
+    },
+    {
+      "id": 103,
+      "name": "StreamLine Assets",
+      "description": "Unlimited access to premium 4K b-roll footage and high-fidelity sound effects.",
+      "price": 149,
+      "period": "yearly",
+      "tag": "New Release",
+      "tagType": "new",
+      "icon": "/Images/products/shopping-cart.png",
+      "features": ["Lossless downloads", "Royalty-free globally", "Weekly new additions"]
+    },
+    {
+      "id": 104,
+      "name": "LogicNode Automate",
+      "description": "Visual workflow builder to connect over 1000+ apps without writing a single line of code.",
+      "price": 85,
+      "period": "monthly",
+      "tag": "Enterprise",
+      "tagType": "popular",
+      "icon": "/Images/products/operation.png",
+      "features": ["Advanced error handling", "Webhook integration", "Priority syncing"]
+    },
+    {
+      "id": 105,
+      "name": "JobQuest Pro",
+      "description": "Strategic career toolkit featuring AI resume scoring and interactive portfolio builders.",
+      "price": 25,
+      "period": "one-time",
+      "tag": "Limited Deal",
+      "tagType": "new",
+      "icon": "/Images/products/portfolio.png",
+      "features": ["ATS-proof designs", "Live interview prep", "PDF & Web export"]
+    },
+    {
+      "id": 106,
+      "name": "SocialPulse Manager",
+      "description": "All-in-one dashboard to schedule, analyze, and boost engagement across social platforms.",
+      "price": 45,
+      "period": "monthly",
+      "tag": "Most Loved",
+      "tagType": "best-seller",
+      "icon": "/Images/products/social-media.png",
+      "features": ["Viral trend analysis", "Smart scheduling", "Competitor tracking"]
+    },
+    {
+      "id": 107,
+      "name": "CodeGuard Security",
+      "description": "Automated security scanner for developers to find and fix vulnerabilities in real-time.",
+      "price": 99,
+      "period": "yearly",
+      "tag": "Must Have",
+      "tagType": "popular",
+      "icon": "/Images/products/rocket.png",
+      "features": ["Instant SQLi detection", "CI/CD integration", "Detailed audit logs"]
+    },
+    {
+      "id": 108,
+      "name": "RenderMaster Pro",
+      "description": "Cloud-based video rendering engine for high-speed motion graphics and 3D animations.",
+      "price": 65,
+      "period": "monthly",
+      "tag": "Speed King",
+      "tagType": "new",
+      "icon": "/Images/products/package.png",
+      "features": ["GPU accelerated", "Batch processing", "Multi-format support"]
+    },
+    {
+      "id": 109,
+      "name": "FontStack Premium",
+      "description": "Collection of 200+ exclusive premium fonts for branding and editorial design.",
+      "price": 39,
+      "period": "one-time",
+      "tag": "Featured",
+      "tagType": "popular",
+      "icon": "/Images/products/design-tool.png",
+      "features": ["Web-font ready", "Multi-weight families", "OTF & TTF formats"]
+    },
+    {
+      "id": 110,
+      "name": "SaaS Starter Kit",
+      "description": "Full-stack boilerplate with authentication, payments, and database pre-configured.",
+      "price": 120,
+      "period": "one-time",
+      "tag": "Expert Choice",
+      "tagType": "best-seller",
+      "icon": "/Images/products/rocket.png",
+      "features": ["React + Node.js", "Stripe integrated", "Clean architecture"]
+    }
+  ]
+}
